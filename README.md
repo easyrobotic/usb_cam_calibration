@@ -9,12 +9,12 @@ sudo apt-get install ros-melodic-usb-cam
 
 ### To calibrate a camera
 ```shell
-$ roslaunch usb_cam_calibration usb_camera_calibration.launch video_device:="/dev/video1"
+$ roslaunch usb_cam_calibration usb_camera_calibration.launch video_device:="/dev/video0"
 ```
 
 ### To see raw and rectified images after calibration
 ```shell
-$ roslaunch usb_cam_calibration usb_camera_calibrated.launch video_device:="/dev/video1"
+$ roslaunch usb_cam_calibration usb_camera_calibrated.launch video_device:="/dev/video0"
 ```
 
 ### Tutorial and references
